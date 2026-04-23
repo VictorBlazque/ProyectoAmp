@@ -18,7 +18,7 @@ apt-get install -y git
 
 # Clonar o actualizar repo
 if [ ! -d "/home/vagrant/app" ]; then
-  git clone https://github.com/VictorBlazque/ProyectoAmpliacion.git /home/vagrant/app
+  git clone https://github.com/VictorBlazque/ProyectoAmp.git /home/vagrant/app
 else
   cd /home/vagrant/app
   git pull

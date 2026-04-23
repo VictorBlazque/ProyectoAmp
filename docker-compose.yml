@@ -13,7 +13,7 @@ services:
       MYSQL_PASSWORD: wordpress
 
   wordpress:
-    depens_on:
+    depends_on:
     - mysql
     
     image: wordpress:latest
